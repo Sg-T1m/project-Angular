@@ -1,0 +1,24 @@
+.main_component{
+   max-width: 700px;
+
+ 
+  
+   /* margin: 0 auto; */
+  
+}
+.Stories{
+   width: 600px;
+   height: 195px;
+   margin: 0 auto;
+   margin-top: 60px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   justify-content: center;
+}
+.Main_loadingNews{
+   color: beige;
+   margin: 0 auto;
+   width: 100px;
+   margin-top: 20px;
+}

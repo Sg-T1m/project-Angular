@@ -1,0 +1,20 @@
+.BlockHistory_img {
+  width: 140px;
+  height: 195px;
+}
+.BlockHistory_textTop {
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  color: #fff;
+}
+.BlockHistory_textDuon{
+    font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  color: #fff;
+}

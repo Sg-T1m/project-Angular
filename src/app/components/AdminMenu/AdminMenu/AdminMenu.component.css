@@ -1,0 +1,31 @@
+.AdminComponent{
+    max-width: 700px;
+    height: 200px;
+    padding: 5px ;
+}
+.AdminComponentHeader{
+    width: 200px;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+}
+.FormAdmin{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.PutData{
+    background: rgba(49, 55, 201, 1);
+    box-shadow: 0px 4px 15px -7px rgba(48, 55, 201, 0.3);
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.FormAdmin{
+    margin: 0 auto;
+    width: 250px;
+}

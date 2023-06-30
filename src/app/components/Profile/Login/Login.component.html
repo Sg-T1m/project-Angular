@@ -1,0 +1,24 @@
+<div class="Profile_component">
+    <p class="Profile_component_Text">Вход</p>
+  </div>
+  <div class="profile_main">
+      <form class="profile_form" action="" [formGroup]="formConrolLogin">
+          <input class="mail" 
+          type="text"
+           required name="mail"
+            placeholder="Почта"
+            formControlName="mail">
+          <input class="password"
+           type="text"
+            required name="password" 
+            placeholder="Пароль"
+            formControlName="password">
+          <button (click)="authorization()" class="login">Войти</button> 
+      </form>
+      <div class="profile_supFinction">
+          <a class="sharpen" >восстановить</a>
+          <a class="Registr"  routerLink="reg" >регистрация</a>
+      </div>
+      <div class="Errors_registr">
+      </div>
+  </div>

@@ -1,0 +1,123 @@
+{
+  "News": [
+    {
+      "Header": "Как писать код быстро и безболезненно?",
+      "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.",
+      "date": "21.06.2020",
+      "Subject": "создание сайтов",
+      "img": "src/img/one_news.svg",
+      "Action": "читать"
+    },
+    {
+      "Header": "Купил новый ноутбук за 150 000 руб",
+      "Text": "",
+      "date": "21.06.2020",
+      "Subject": "продвижение видео",
+      "img": "src/img/two_news.svg",
+      "Action": "оставить комментарий"
+    },
+    {
+      "Header": "Как я сходил на FrontEnd Conf 2021",
+      "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.",
+      "date": "21.06.2020",
+      "Subject": "создание сайтов",
+      "img": "src/img/fre_news.svg",
+      "Action": "читать"
+    },
+    {
+      "Header": "Как я сходил на FrontEnd Conf 2021",
+      "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.",
+      "date": "21.06.2020",
+      "Subject": "создание сайтов",
+      "img": "src/img/fre_news.svg",
+      "Action": "читать"
+    },
+    {
+      "Header": "Как я сходил на FrontEnd Conf 2021",
+      "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.",
+      "date": "21.06.2020",
+      "Subject": "создание сайтов",
+      "img": "src/img/fre_news.svg",
+      "Action": "читать"
+    },
+    {
+      "Header": "Как я сходил на FrontEnd Conf 2021",
+      "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.",
+      "date": "21.06.2020",
+      "Subject": "создание сайтов",
+      "img": "src/img/fre_news.svg",
+      "Action": "читать"
+    },
+    {
+      "Header": "Как я сходил на FrontEnd Conf 2021",
+      "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.",
+      "date": "21.06.2020",
+      "Subject": "создание сайтов",
+      "img": "src/img/fre_news.svg",
+      "Action": "читать"
+    },
+    {
+      "img": "vdv",
+      "Header": "vd",
+      "Text": "vd",
+      "date": "vdv",
+      "Subject": "vd",
+      "Action": "vd",
+      "id": 0.0745005385066464
+    }
+  ],
+  "Profil": [
+    {
+      "Names": "dvdvdv",
+      "mail": "xvd@mail.ru",
+      "password": "12345",
+      "Status": "User",
+      "id": 1
+    },
+    {
+      "Names": "Чарушин Тимофей",
+      "mail": "perevozchikov.t.a@mail.ru",
+      "password": "12345",
+      "Status": "Admin",
+      "id": 2
+    },
+    {
+      "Names": "vdvddvdv",
+      "mail": "vdvd@mail.ru",
+      "password": "12345",
+      "Status": "User",
+      "id": 3
+    },
+    {
+      "Names": "vdvdv",
+      "mail": "dbvdb@mail.ru",
+      "password": "12345",
+      "Status": "User",
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "Names": "dbdbdb",
+      "mail": "poddxdffffsfa@vv",
+      "password": "12345",
+      "Status": "User",
+      "id": 6
+    },
+    {
+      "Names": "вмвмвмв",
+      "mail": "dvd@mail.ru",
+      "password": "12345",
+      "Status": "User",
+      "id": 7
+    },
+    {
+      "Names": "Чарушин Тимофей",
+      "mail": "aboba@mail.ru",
+      "password": "12345",
+      "Status": "User",
+      "id": 8
+    }
+  ]
+}

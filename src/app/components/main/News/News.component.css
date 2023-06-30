@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+.NewsBlog {
+  width: 600px;
+  background: #202020;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+.TextHeader_NewsBlog {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+.TextMain_NewsBlog {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #d2d2d2;
+  text-align: left;
+  margin-top: 15px;
+}
+.ContainerDown_NewsBlog {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+}
+.ContainerDown_NewsBlog_left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+.circle_ContainerDown {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #c4c4c4;
+}
+.NewsBlog_date {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  color: #828282;
+}
+.NewsBlog_Subject {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  color: #828282;
+}
+.NewsContent_Action {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: right;
+  color: #107eff;
+}

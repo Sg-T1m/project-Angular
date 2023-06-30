@@ -1,0 +1,12 @@
+<div class="main_component">
+  <div>
+    <app-SliderStoris  [items]="['./assets/Stori1.png','./assets/Project.png', './assets/NewHome.png', './assets/autumn.png']"></app-SliderStoris>
+  </div>
+  <div class="Stories" >
+    <app-story *ngFor="let storiess of historyContent;" [stories]="storiess" ></app-story>
+  </div>
+  
+  <app-Blog_Search></app-Blog_Search>
+  <p *ngIf="loading" class="Main_loadingNews">Загрузка</p>
+  <app-News *ngFor="let _news of News$ | async;" [NewsContent]="_news"></app-News>
+</div>

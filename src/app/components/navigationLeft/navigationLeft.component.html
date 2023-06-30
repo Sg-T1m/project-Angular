@@ -1,0 +1,31 @@
+<div class="NavigationLeft">
+  <img src="./assets\Rectangle.jpg" alt="background" srcset="" />
+  <img
+    src="./assets/Ellipse 1.svg"
+    class="NavigationLeft_Avatar"
+    alt="avatar"
+    srcset=""
+  />
+  <p class="NavigationLeft_Name">Дмитрий Валак</p>
+  <p class="NavigationLeft_profession">блог front-end разработчика</p>
+  <div class="NavigationLeft_socialMedia">
+    <img src="./assets/instagram.svg" alt="Inss" srcset="" />
+    <img src="./assets/vk.svg" alt="vk" srcset="" />
+    <img src="./assets/pinterest.svg" alt="pinter" srcset="" />
+  </div>
+  <div class="NavigationLeft_MainText">
+    <p class="MainText">
+      Front-end разработчик. Практик верстки сайтов. Созданием сайтов занимаюсь
+      с 2012 года. Работал в нескольких ИТ компаниях и наработал более 10 000
+      часов в создании сайтов различной сложности.
+    </p>
+  </div>
+  <div class="NavigationLeft_Button">
+    <button class="NavigationLeft_Button_myWorks">Мои работы</button>
+    <button class="NavigationLeft_Button_WriteMe">Написать мне</button>
+  </div>
+  <div>
+    
+    <button  class="NavigationLeft_Button_Admin" routerLink="/admin"  *ngIf="this.AuthorizationService.GetStatus()"> Админ панель</button>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+<div class="errorBlog"
+*ngIf="ErrorService.error$ | async as error"
+>
+<p class="errorText">{{error}}</p>
+</div>

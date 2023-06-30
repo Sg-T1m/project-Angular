@@ -1,0 +1,44 @@
+.Registrs {
+    margin: 0 auto;
+    width: 575px;
+    margin-top: 60px;
+    
+  }
+  .Registrs_Header_text {
+  
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  .Form_Registrs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .Registrs_Button_Save {
+    height: 30px;
+    width: 90px;
+    background: rgba(49, 55, 201, 1);
+    box-shadow: 0px 4px 15px -7px rgba(48, 55, 201, 0.3);
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 33px;
+  }
+  .Registrs_Name, .Registrs_Mail,.Registrs_password,.Registrs_password_two{
+    width: 
+    340px;
+  }
+.red{
+  border: 1px solid red;
+}
+.alert{
+  color: #fff;
+  margin-top: 10px;
+}

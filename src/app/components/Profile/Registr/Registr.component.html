@@ -1,0 +1,102 @@
+<div class="Registrs">
+  <div class="Registrs_left">
+    <div class="Registrs_Header">
+      <p class="Registrs_Header_text">Профиль</p>
+    </div>
+    <form
+      class="Form_Registrs"
+      action=""
+      [formGroup]="buyTicketForm"
+      novalidate
+    >
+      <input
+        class="Registrs_Name"
+        required
+        placeholder="Имя и Фамилия"
+        type="text"
+        formControlName="Names"
+        [ngClass]="{
+          red:
+            buyTicketForm.controls['Names'].invalid &&
+            buyTicketForm.controls['Names'].touched
+        }"
+      />
+      <input
+        class="Registrs_Mail"
+        placeholder="маил"
+        type="mail"
+        required
+        [ngClass]="{
+          red:
+            buyTicketForm.controls['mail'].invalid &&
+            buyTicketForm.controls['mail'].touched
+        }"
+        formControlName="mail"
+      />
+      <input
+        class="Registrs_password"
+        required
+        placeholder="Пароль"
+        type="password"
+        [ngClass]="{
+          red:
+            buyTicketForm.controls['password'].invalid &&
+            buyTicketForm.controls['password'].touched
+        }"
+        formControlName="password"
+      />
+      <input
+        class="Registrs_password_two"
+        required
+        placeholder="Подтвердить впароль"
+        type="password"
+        formControlName="passwordConfirmation"
+        [ngClass]="{
+          red:
+            buyTicketForm.value.password !=
+              buyTicketForm.value.passwordConfirmation &&
+            buyTicketForm.controls['password'].touched
+        }"
+      />
+      <button (click)="pringForm()" class="Registrs_Button_Save">
+        Сохранить
+      </button>
+    </form>
+    <div class="Errors"></div>
+  </div>
+  <div class="alert">
+    <P
+      *ngIf="
+        buyTicketForm.controls['Names'].invalid &&
+        buyTicketForm.controls['Names'].touched
+      "
+      >Имя и Фамилия слишком короткие, минимальное число символов 5</P
+    >
+    <p
+      *ngIf="
+        buyTicketForm.controls['mail'].invalid &&
+        buyTicketForm.controls['mail'].touched
+      "
+    >
+      Некорректный email
+    </p>
+    <P
+      *ngIf="
+        buyTicketForm.value.password !=
+          buyTicketForm.value.passwordConfirmation &&
+        buyTicketForm.controls['passwordConfirmation'].touched
+      "
+      >Пароли не совпадают</P
+    >
+
+    <p
+      *ngIf="
+        buyTicketForm.controls['password'].invalid &&
+        buyTicketForm.controls['password'].touched
+      "
+    >
+      Пароль слишком короткий
+    </p>
+    <P *ngIf="valueError"> Проверте все-ли поля заполнены </P>
+  </div>
+</div>

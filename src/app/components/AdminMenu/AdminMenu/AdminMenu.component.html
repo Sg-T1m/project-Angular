@@ -1,0 +1,16 @@
+<div class="AdminComponent">
+  <div class="AdminComponentHeader"> 
+    <p> Админ панель</p>
+  </div>
+  <div>
+    <form class="FormAdmin"  [formGroup]="AdminFormControl" (submit)="PutNews()">
+      <input class="InputImg" placeholder="Вставте url картинки" formControlName="imgs">
+      <input class="InputHeader" placeholder="Введите заголовок статьи" type="text" formControlName="HeaderText">
+      <input class="InputText" placeholder="Введите текст" type="text" formControlName="Text">
+      <input class="InputDate" placeholder="Введите время статьи" type="text" formControlName="date">
+      <input class="InputSubtitle" placeholder="Введите подзаголовок" type="text" formControlName="subtitle">
+      <input class="InputAction" placeholder="Введите Действие" type="text" formControlName="Action">
+      <button class="PutData" type="submit"> Отправить </button>
+    </form> 
+  </div>
+</div>

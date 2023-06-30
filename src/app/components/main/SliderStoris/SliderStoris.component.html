@@ -1,0 +1,6 @@
+<ng-container  *ngIf="item$ | async as url">
+  <div  class="slider">
+    <img (mousedown)="paused$.next(true)" (mouseup)="paused$.next(false)" [src]="url" />
+  </div>
+  
+</ng-container>

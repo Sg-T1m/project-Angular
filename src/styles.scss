@@ -1,1 +1,147 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background: #181818;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:active,
+:focus {
+  outline: none;
+}
+a:active,
+a:focus {
+  outline: none;
+}
+aside,
+footer,
+header,
+nav {
+  display: block;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+a.text:active, /* активная/посещенная ссылка */
+  a.text:hover,
+  a:visited,  /* при наведении */
+  a.text {
+  text-decoration: none;
+  color: white;
+}
+.Write_posts_action:focus,
+.Write_posts_action:active,
+.Write_posts_Slogan:focus,
+.Write_posts_Slogan:active,
+.Write_posts_TExt:focus,
+.Write_posts_TExt:active,
+.Write_posts_data:focus,
+.Write_posts_data:active,
+.Write_posts_Header:focus,
+.Write_posts_Header:active,
+.Write_posts_img:focus,
+.Write_posts_img:active,
+.password:focus,
+.password:active,
+.mail:focus,
+.mail:active,
+.Registrs_Name:focus,
+.Registrs_Name:active,
+.Registrs_Mail:focus,
+.Registrs_Mail :active,
+.Registrs_password:focus,
+.Registrs_password:active,
+.Registrs_password_two:focus,
+.Registrs_password_two:active,
+.InputSubtitle:focus,
+.InputSubtitle:active,
+.InputHeader:focus,
+.InputHeader:active,
+.InputText:focus,
+.InputText:active,
+.InputTime:focus,
+.InputTime:active,
+.InputImg:focus,
+.InputImg:active,
+.InputAction:focus,
+.InputAction:active,
+.InputDate:focus,
+.InputDate:active {
+  border-bottom: 1px solid rgba(16, 126, 255, 1);
+}
+.mail,
+.InputDate,
+.InputImg,
+.password,
+.Registrs_Name,
+.Registrs_Mail,
+.Registrs_password,
+.Registrs_password_two,
+.InputSubtitle,
+.InputHeader,
+.InputText,
+.InputTime,
+.InputAction {
+  width: 280px;
+  border-bottom: 1px solid rgba(63, 63, 63, 1);
+  margin-top: 30px;
+  background: rgba(24, 24, 24, 1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}

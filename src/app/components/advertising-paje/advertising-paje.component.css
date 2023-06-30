@@ -1,0 +1,17 @@
+.Advertising_Component {
+  max-width: 500px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+}
+.Advertising_Component_Text {
+  align-items: center;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: center;
+  color: #fff;
+}

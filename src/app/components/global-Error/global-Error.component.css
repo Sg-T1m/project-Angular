@@ -1,0 +1,15 @@
+.errorBlog {
+  width: 100%;
+  background-color: red;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.errorText {
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  display: block;
+ 
+}
